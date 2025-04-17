@@ -1,0 +1,119 @@
+body{
+    background-color: #e76f51;
+}
+.navbar{
+    background-color: #2a9d8f;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+   
+}
+.box:hover{
+    border: 2px solid red;
+
+}
+.profile{
+    height: 50px;
+    width: 50px;
+    background-image:url(arpan.jpg) ;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+}
+.pro-name{
+    margin-left: 120px;
+    margin-bottom: 5px;
+    color: white;
+}
+.about-us{
+    margin-right: 10px;
+}
+.contact{
+    margin-left: 800px;
+    
+}
+.main-body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.my-photo{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    margin-top: 200px;
+    box-shadow: 1px 2px 20px wheat;
+    transition-duration: 2s;
+    transition-property: all;
+    transition-delay: 0s;
+    background-size: cover;
+    animation-name: photon;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.myself{
+    height: 400px;
+    width: 400px;
+    
+    margin-top: 200px;
+   
+}
+.my-photo:hover{
+    transform: scale(1.1);
+}
+@keyframes photon{
+    0%{background-image: url(arpan.jpg);}
+    50%{background-image: url(arpan2.jpg);}
+    100%{background-image: url(arpan3.jpg);}
+}
+.para{
+    font-weight: 500;
+    
+}
+.main-footer{
+    height: 100px;
+    width: 100%;
+    background-color:#2a9d8f ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 300px;
+}
+.footer-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-1{
+    color: blue;
+}
+.link-2{
+    color: blue;
+}
+.butt{
+    background-color:#2a9d8f ;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    border-color: transparent;
+}
+.butt:hover{
+    background-color: white;
+    color: black;
+}
+.butt:active{
+    background-color: #e76f51;
+    color: white;
+}

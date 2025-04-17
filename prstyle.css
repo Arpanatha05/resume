@@ -1,0 +1,113 @@
+body{
+    background-color: #f5f9fa;
+}
+/* .intro{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-weight: 500;
+}
+.div-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.main_body{
+    height: 500px;
+    width: 100%;
+    display: flex;
+   
+}
+.profile{
+    height: 600px;
+    width: 45%;
+    background-color: blue;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.pic{
+    height: 250px;
+    width: 250px;
+    background-color: #f5f9fa;
+    margin-top: 40px;
+    border-radius: 50%;
+    background-image: url(atha.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.para{
+    margin-top: 300px;
+    color: #f5f9fa;
+    
+}
+.butt{
+    background-color: rgb(240, 45, 78);
+    box-shadow: 1px 2px 10px white;
+}
+.butt:hover{
+    background-color: fuchsia;
+}
+.social{
+    height: 600px;
+    width: 55%;
+    background-color: #f5f9fa;
+    margin-left: 20px;
+    margin-right: 5px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    height: 280px;
+    width: 280px;
+    background-color:white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 10px black;
+
+}
+.box1{
+    border-bottom: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+.box2{
+    border-bottom: 5px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.box3{
+    border-bottom: 5px solid yellow;
+}
+.box4{
+    border-bottom: 5px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+

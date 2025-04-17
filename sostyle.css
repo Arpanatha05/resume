@@ -1,0 +1,95 @@
+body{
+    background-color:white;
+    background-color: black;
+}
+.high{
+    
+    border-right: 2px solid black;
+    
+;
+}
+.mysun{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-image: url(sun.jpg);
+    background-size: cover;
+    
+    
+    
+}
+.main{
+    height: 700px;
+    width: 700px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    animation-name: sunre;
+    animation-duration: 3s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    margin-left: 200px;
+    margin-top: 200px;
+    
+    
+}
+
+@keyframes sunre {
+    from{transform: rotate(0deg);
+    
+    
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.sun{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(earth.jpg);
+    background-size: cover;
+    border: 2px solid transparent;
+    
+}
+#box1{
+    text-align: center;
+    height: 170px;
+    width: 170px;
+    position: absolute;
+    left: 800px;
+    top: 500px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    border-top: 2px solid transparent;
+    background-image: url(moon.jpg);
+    background-size:cover;
+    animation-name: spin;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    /* animation-name: translate;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 0s; */
+
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
